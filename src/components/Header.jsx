@@ -1,9 +1,9 @@
 import { useContext } from "react";
-import { AuthContext } from "../context/AuthContext";
+import { useAuth } from "../context/AuthContext";
 
 export default function Header({ toggleSidebar }) {
 
-    const { user } = useContext(AuthContext);
+    const { user } = useAuth();
 
     const getInitials = () => {
 

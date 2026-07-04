@@ -10,7 +10,7 @@ export default function Back() {
             onClick={() => navigate(-1)}
             style={{ display: "inline-flex", alignItems: "center", gap: "5px", fontSize: "1rem", cursor: "pointer" }}
         >
-            ←
+            ← Back
         </button>
     );
 }

@@ -39,6 +39,11 @@ export default function Sidebar({ isOpen, closeSidebar }) {
       path: "/reports",
     },
     {
+      title: "MVPs",
+      icon: "bi-award",
+      path: "/mvps",
+    },
+    {
       title: "Users",
       icon: "bi-person-badge",
       path: "/users",

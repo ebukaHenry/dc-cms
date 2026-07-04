@@ -7,7 +7,7 @@ import MainLayout from "./layouts/MainLayout";
 import Dashboard from "./pages/Dashboard";
 import Members from "./pages/Members";
 import Attendance from "./pages/Attendance";
-import Reports from "./pages/Reports";
+//import Reports from "./pages/Reports";
 import Settings from "./pages/Settings";
 import GenerateQR from "./pages/GenerateQR";
 import MemberForm from "./pages/MemberForm";
@@ -16,6 +16,7 @@ import VisitorAttendance from "./pages/VisitorAttendance";
 import AttendanceSuccess from "./pages/AttendanceSuccess";
 import Landing from "./pages/Landing";
 import Visitors from "./pages/visitors";
+import MVPs from "./pages/MVPs";
 
 
 
@@ -30,7 +31,7 @@ function App() {
                 <Route path="/dashboard" element={<Dashboard />} />
                 <Route path="/members" element={<Members />} />
                 <Route path="/attendance" element={<Attendance />} />
-                <Route path="/reports" element={<Reports />} />
+                {/*<Route path="/reports" element={<Reports />} />*/}
                 <Route path="/settings" element={<Settings />} />
                 <Route path="/generate-qr" element={<GenerateQR />} />
             <Route path="/member-form" element={<MemberForm />} />
@@ -39,6 +40,7 @@ function App() {
             <Route path="/attendance-success" element={<AttendanceSuccess />} />
             <Route path="/landing" element={<Landing />} />
             <Route path="/visitors" element={<Visitors />} />
+            <Route path="/mvps" element={<MVPs />} />
                 
         </Routes>
         
